@@ -1,7 +1,7 @@
 ---
-title: Folder
+title: Matemáticas de base
 type: docs
-prev: docs/first-page
+prev: /
 next: docs/folder/leaf
 sidebar:
   open: true
