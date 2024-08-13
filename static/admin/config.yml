@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: SofieTorch/hub-ai-bolivia
+  repo: sofietorch/hub-ai-bolivia
   branch: main # Branch to update (optional; defaults to master)
 media_folder: content/images
 public_folder: /img
