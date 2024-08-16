@@ -5,13 +5,21 @@ backend:
 media_folder: content/images
 public_folder: /img
 collections:
-  - name: "knowledge-base"
+  - name: "fundamental-math"
     label: "Fundamentos matemáticos"
     folder: "content/knowledge-base/fundamental-math"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    editor:
-      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Previous", name: "prev", widget: "string" }
+      - { label: "Next", name: "next", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "probability-and-statistics"
+    label: "Probabilidad y estadística"
+    folder: "content/knowledge-base/probability-and-statistics"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Previous", name: "prev", widget: "string" }

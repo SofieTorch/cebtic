@@ -1,8 +1,8 @@
 ---
 title: Matemáticas de base
 type: docs
-prev: /
-next: docs/folder/leaf
+prev: docs/
+next: docs/fundamental-math/vectores
 sidebar:
   open: true
 ---

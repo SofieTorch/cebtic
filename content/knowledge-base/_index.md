@@ -3,7 +3,7 @@ title: 📚 Base de conocimiento
 cascade:
   type: docs
   math: true
-next: fundamental-math/vectores
+next: docs/fundamental-math/vectores
 ---
 
 Esta es una recopilación de diversos conceptos que son esenciales para que puedas empezar a entender la inteligencia artificial, cómo funciona, y cómo crear tus propios modelos.
