@@ -12,8 +12,8 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Previous", name: "prev", widget: "string" }
-      - { label: "Next", name: "next", widget: "string" }
+      - { label: "Previous", name: "prev", widget: "string", required: false }
+      - { label: "Next", name: "next", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "probability-and-statistics"
     label: "Probabilidad y estadística"
@@ -22,6 +22,6 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Previous", name: "prev", widget: "string" }
-      - { label: "Next", name: "next", widget: "string" }
+      - { label: "Previous", name: "prev", widget: "string", required: false }
+      - { label: "Next", name: "next", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
