@@ -14,7 +14,7 @@ Creada por la comunidad, para la comunidad 💛.
 
 {{< cards >}}
 {{< card link="fundamental-math" title="Matemáticas de base" icon="variable" subtitle="Conceptos esenciales sobre cálculo y álgebra lineal.">}}
-{{< card link="docs" title="Probabilidad y estadística" icon="chart-square-bar" subtitle="Teoremas y distribuciones probabilísticas.">}}
+{{< card link="probability-and-statistics" title="Probabilidad y estadística" icon="chart-square-bar" subtitle="Teoremas y distribuciones probabilísticas.">}}
 {{< card link="about" title="Machine learning" icon="chip" subtitle="Algoritmos y técnicas de predicción.">}}
 
 {{< /cards >}}
